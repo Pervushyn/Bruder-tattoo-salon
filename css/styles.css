@@ -1,0 +1,106 @@
+:root {
+  --black: #121212;
+  --dark: #1D1D1D;
+  --gradient: 180deg, #060707 0%, #1D1D1D 100%;
+  --brown: #BEA69E;
+  --white: #ffffff;
+  --white-tr: rgba(255, 255, 255, 0.7);
+  --white-tr2: rgba(255, 255, 255, 0.5);
+  --white-tr3: rgba(255, 255, 255, 0.2);
+  --background-grau:#414141 ;
+  --grau:#414141;
+  --background-color-dark: #1D1D1D;
+  --background-color-white: #FFF;
+  --backgroundc-color-brown: #BEA69E;
+  --background-color-black: #121212;
+  --transparent-color: var(--transparent-color);
+}
+
+body {
+  color: var(--white);
+  font-family: Montserat, sans-serif;
+  background-color: var(--background-color-dark);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  
+}
+/* Reset styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+button {
+  font-family: inherit;
+}
+
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+/* header */
+.logo {
+  fill: var(--white);
+  stroke: var(--white);
+}
+
+.header-socials-link {
+  fill: var(--transparent-color);
+  stroke: var(--white);
+}
+
+
+
+
+
+/* END header */
