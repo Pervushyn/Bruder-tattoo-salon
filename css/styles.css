@@ -192,7 +192,7 @@ padding: 24px 32px;
   background-image: url(http://klublady.ru/uploads/posts/2022-07/1658281218_40-klublady-ru-p-foni-dlya-tatuirovok-foto-41.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
 }
 
 .hero-title {
