@@ -1,17 +1,17 @@
 :root {
   --black: #121212;
-  --dark: #1D1D1D;
-  --gradient: 180deg, #060707 0%, #1D1D1D 100%;
-  --brown: #BEA69E;
+  --dark: #1d1d1d;
+  --gradient: 180deg, #060707 0%, #1d1d1d 100%;
+  --brown: #bea69e;
   --white: #ffffff;
   --white-tr: rgba(255, 255, 255, 0.7);
   --white-tr2: rgba(255, 255, 255, 0.5);
   --white-tr3: rgba(255, 255, 255, 0.2);
-  --background-grau:#414141 ;
-  --grau:#7e7c7c;
-  --background-color-dark: #1D1D1D;
-  --background-color-white: #FFF;
-  --backgroundc-color-brown: #BEA69E;
+  --background-grau: #414141;
+  --grau: #7e7c7c;
+  --background-color-dark: #1d1d1d;
+  --background-color-white: #fff;
+  --backgroundc-color-brown: #bea69e;
   --background-color-black: #121212;
   --transparent-color: var(--transparent-color);
 }
@@ -23,7 +23,6 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  
 }
 /* Reset styles */
 h1,
@@ -58,10 +57,9 @@ button {
 
 img {
   display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Опціонально, але корисно для збереження пропорцій картинки */
-  
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Опціонально, але корисно для збереження пропорцій картинки */
 }
 
 html {
@@ -71,7 +69,6 @@ html {
 button {
   font-family: inherit;
 }
-
 
 .visually-hidden {
   position: absolute;
@@ -99,14 +96,13 @@ header {
 }
 
 .container-header {
-padding: 24px 32px;
+  padding: 24px 32px;
 }
 .logo {
   fill: var(--white);
   stroke: var(--white);
+  text-align: center;
 }
-
-
 
 .header-socials-link {
   stroke: var(--white);
@@ -144,7 +140,6 @@ padding: 24px 32px;
   flex-grow: 1;
   justify-content: center;
   gap: 40px;
-
 }
 
 .nav-link {
@@ -159,7 +154,6 @@ padding: 24px 32px;
 }
 .nav-link:focus {
   color: var(--brown);
-
 }
 
 .header-socials {
@@ -172,22 +166,18 @@ padding: 24px 32px;
 
 .header-socials:focus {
   stroke: var(--backgroundc-color-brown);
-  
 }
 .header-socials:hover {
   stroke: var(--backgroundc-color-brown);
 }
 
-
 /* END HEADER */
-
 
 /* HERO SECTION */
 
- 
 .hero-section {
-  padding: 200px 0 ;
-  background-image: url(../images/1614808302_108-p-fon-dlya-tatu-138\ \(1\).jpg);
+  padding: 200px 0;
+  background-image: url(../images/hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -197,7 +187,7 @@ padding: 24px 32px;
   max-width: 690px;
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 56px;
+  font-size: 64px;
   line-height: 1.3;
   letter-spacing: 0.03em;
   margin-bottom: 24px;
@@ -224,7 +214,6 @@ padding: 24px 32px;
   width: 100%;
 }
 .galary-content {
-
   flex-basis: calc((100% -58px) / 2);
 }
 .galary-title {
@@ -239,7 +228,7 @@ padding: 24px 32px;
 }
 
 .galary-title::after {
-  content: '';
+  content: "";
   display: block;
   background-color: var(--white);
   top: 125%;
@@ -251,7 +240,6 @@ padding: 24px 32px;
 }
 
 .galary-paragraf {
-  
   max-width: 500px;
   font-weight: 700;
   font-size: 20px;
@@ -285,7 +273,9 @@ padding: 24px 32px;
 }
 
 @keyframes bounce {
-  0%, 20%, 100% { 
+  0%,
+  20%,
+  100% {
     transform: translateY(0); /* Позиция в начале, конце и после прыжка */
   }
   10% {
@@ -320,17 +310,16 @@ padding: 24px 32px;
 }
 
 .about-us-paragraf {
-  
   position: relative;
   font-weight: 700;
   font-size: 20px;
   line-height: 1.3;
   letter-spacing: 0.03em;
-margin-bottom: 130px;
+  margin-bottom: 130px;
 }
 
 .about-us-paragraf::after {
-  content: '';
+  content: "";
   display: block;
   background-color: var(--black);
   top: 200%;
@@ -357,14 +346,14 @@ margin-bottom: 130px;
 /* STUDIO-SECTION */
 
 .studio-section {
+  margin-top: 75px;
+  margin-bottom: 75px;
   padding: 180px 180px;
   background-image: url(../images/studio-salon.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
-
-
 
 .studio-title {
   font-weight: 700;
@@ -377,13 +366,12 @@ margin-bottom: 130px;
   position: relative;
 }
 
-
 .studio-title::after {
-  content: '';
+  content: "";
   display: block;
   background: linear-gradient(to right, black 50%, white 50%);
   top: 150%;
-  left: 50%; 
+  left: 50%;
   transform: translateX(-50%);
   width: 200px;
   height: 4px;
@@ -423,6 +411,104 @@ margin-bottom: 130px;
   color: aqua;
 }
 
-
-
 /* END_STUDIO-SECTION */
+
+/* HyGIENE_SECTION */
+
+.hygiene-section {
+  padding: 75px 0;
+  background-color: var(--background-color-white);
+}
+
+.hygiene-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 56px;
+  line-height: 1.3;
+  letter-spacing: 0.03em;
+  color: var(--black);
+  margin-bottom: 50px;
+}
+
+.hygiene-content {
+  display: flex;
+  gap: 40px;
+}
+.hygiene-text {
+  color: var(--dark);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+  margin-bottom: 20px;
+}
+
+.hygiene-img {
+  max-width: 600px;
+}
+
+/* END-HIGIENE_SECTION */
+
+/* FOOTER */
+.footer {
+  padding: 75px 0px;
+}
+
+.logo-footer {
+  margin-bottom: 30px;
+  fill: var(--background-grau);
+}
+
+.address-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.address-menu {
+  font-family: Montserat, sans-serif;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+  transition: 0.5s;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+}
+
+.address-menu:hover {
+  transform: scale(1.25);
+}
+
+.adress-footer {
+  font-family: Montserat, sans-serif;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  margin-bottom: 30px;
+}
+
+.adress-footer:hover {
+  transform: scale(1.25);
+}
+
+.social-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+  fill: var(--black);
+  stroke: var(--white);
+}
+
+/* END FOOTER */
