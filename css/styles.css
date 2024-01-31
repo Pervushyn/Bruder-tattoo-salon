@@ -212,8 +212,10 @@ header {
   gap: 58px;
   margin-bottom: 80px;
   width: 100%;
+  flex-wrap: wrap;
 }
 .galary-content {
+  flex: 1;
   flex-basis: calc((100% -58px) / 2);
 }
 .galary-title {
@@ -433,7 +435,12 @@ header {
 
 .hygiene-content {
   display: flex;
+  flex-wrap: 1;
   gap: 40px;
+}
+.hygiene-content-item {
+  flex-wrap: 1;
+  flex-basis: calc((100% - 48px) / 2);
 }
 .hygiene-text {
   color: var(--dark);
@@ -445,7 +452,8 @@ header {
 }
 
 .hygiene-img {
-  max-width: 600px;
+  flex: 1;
+  flex-basis: calc((100% - 40px) / 2);
 }
 
 /* END-HIGIENE_SECTION */
