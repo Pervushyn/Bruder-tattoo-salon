@@ -60,7 +60,7 @@
               </svg>
             </a>
           </div>
-          <button class="menu-toggle">
+          <button class="menu-toggle" data-modal-open>
             <svg class="menu-toggle-icon" width="22" height="22">
                 <use href="./images/icons.svg#icon-menu-03-1"></use>
             </svg>
@@ -354,5 +354,40 @@
         </address>
       </div>
     </footer>
+
+    <!-- modal -->
+
+    <div class="backdrop is-hidden" data-modal>
+
+      <div class="modal">
+        <nav class="modal-nav">
+          <ul class="modal-list">
+            <li>
+              <a class="modal-link" href="#heroid">Home</a>
+            </li>
+            <li>
+              <a class="modal-link" href="#galaryid">Galerie</a>
+            </li>
+            <li>
+              <a class="modal-link" href="#studio">Studio</a>
+            </li>
+            <li>
+              <a class="modal-link" href="#hygiene">Hygirne</a>
+            </li>
+            <li>
+              <a class="modal-link" href="#kontact">Kontakt</a>
+            </li>
+          </ul>
+          <img class="images" src="./images/modal-foto.jpg" alt="gerl-tattoo">
+        </nav>
+        <button class="modal-close" type="button" data-modal-close>
+          <svg class="icon-close" width="28" height="28">
+            <use href="./images/icons.svg#icon-x-close-1"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html> 
