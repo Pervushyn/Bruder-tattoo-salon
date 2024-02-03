@@ -1,10 +1,11 @@
+// Создаем элемент модального окна
 const modal = document.createElement('div');
 modal.style.cssText = `
   position: fixed;
-  top: calc(0px + 24px); // Отступаем 24px сверху для хедера
+  top: 0;
   left: 0;
   width: 100%;
-  height: calc(100% - 24px); // Вычитаем высоту хедера из общей высоты
+  height: 100%;
   display: none;
   align-items: center;
   justify-content: center;
@@ -14,8 +15,8 @@ document.body.appendChild(modal);
 
 // Создаем элемент для изображения в модальном окне
 const modalImg = document.createElement('img');
-modalImg.style.maxWidth = '80%';
-modalImg.style.maxHeight = '80%';
+modalImg.style.maxWidth = '90%';
+modalImg.style.maxHeight = '90%';
 modal.appendChild(modalImg);
 
 // Функция для открытия модального окна с изображением
