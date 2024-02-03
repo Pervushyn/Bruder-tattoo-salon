@@ -83,7 +83,7 @@ button {
 
 .container {
   /* max-width: 1440px; */
-  max-width: 475px;
+  max-width: 600px;
   margin: 0 auto;
   /* padding: 0 75px; */
   padding: 0 30px;
@@ -99,7 +99,7 @@ header {
 
 .container-header {
   padding: 18px 16px; /* padding: 24px 32px; */
-  max-width: 475px;
+  max-width: 600px;
   margin: 0 auto;
 }
 .logo {
@@ -339,10 +339,9 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 26px;
+  gap: 40px;
   margin-bottom: 40px;
   flex-basis: 100%;
-  flex-wrap: wrap; 
 }
 .about-us-content {
   flex-basis: calc((100% - 26px) / 2);
@@ -564,7 +563,7 @@ header {
 @media screen and (min-width: 767.8px) {
  
 .container-header {
-  max-width: 768px;
+  max-width: 1198px;
   padding: 0 24px;
 }
 .menu-toggle-icon {
@@ -649,7 +648,7 @@ header {
     padding: 150px 0px 150px;
   }
   .container {
-    max-width: 768px;
+    max-width: 1198px;
     padding: 0 50px;
   }
   .hero-title {
@@ -680,14 +679,17 @@ flex-basis: calc((100% -20px) / 2);
 .about-us {
   padding: 50px 0;
 }
-  .about-us-title {
+  /* .about-us-title {
     max-width: 500px;
     font-size: 40px;
   }
   .about-us-paragraf {
     max-width: 450px;
-  }
-
+  } */
+.about-us-photo {
+max-width: 700px;
+margin: 0 auto;
+}
   .studio-section {
     padding: 50px 0;
   }
