@@ -341,7 +341,7 @@ header {
   width: 150px;
   border-top: 30px solid var(--background-color-black);
   border-right: 20px solid transparent;
-  top: -1%;
+  top: -0.5%;
 }
 
 .decor-right {
@@ -350,7 +350,7 @@ header {
   width: 150px;
   border-top: 30px solid var(--background-color-black);
   border-left: 20px solid transparent;
-  top: -1%;
+  top: -0.5%;
 }
 
 .flex-abaut {
@@ -399,10 +399,6 @@ header {
   line-height: 1.4;
   letter-spacing: 0.02em;
 }
-/* .about-us-photo {
-  height: 100%;
-  object-fit: cover;
-} */
 .us {
   margin-bottom: 0px;
 }
@@ -713,13 +709,7 @@ flex-basis: calc((100% -20px) / 2);
   width: 230px;
   border-top: 50px solid var(--background-color-black);
 }
-  /* .about-us-title {
-    max-width: 500px;
-    font-size: 40px;
-  }
-  .about-us-paragraf {
-    max-width: 450px;
-  } */
+ 
   .about-us-photo {
     height: 100%;
     object-fit: cover;
