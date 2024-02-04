@@ -330,9 +330,27 @@ header {
 
 /* ABAUT US */
 .about-us {
+  position: relative;
   background-color: var(--background-color-white);
   color: var(--background-color-black);
   padding: 30px 0;
+}
+
+.decor-left {
+  position: absolute;
+  width: 150px;
+  border-top: 30px solid var(--background-color-black);
+  border-right: 20px solid transparent;
+  top: -1%;
+}
+
+.decor-right {
+  position: absolute;
+  right: 0;
+  width: 150px;
+  border-top: 30px solid var(--background-color-black);
+  border-left: 20px solid transparent;
+  top: -1%;
 }
 
 .flex-abaut {
@@ -340,8 +358,6 @@ header {
   flex-direction: column;
   justify-content: center;
   gap: 40px;
-  margin-bottom: 40px;
-  flex-basis: 100%;
 }
 .about-us-content {
   flex-basis: calc((100% - 26px) / 2);
@@ -383,6 +399,10 @@ header {
   line-height: 1.4;
   letter-spacing: 0.02em;
 }
+/* .about-us-photo {
+  height: 100%;
+  object-fit: cover;
+} */
 .us {
   margin-bottom: 0px;
 }
@@ -683,6 +703,16 @@ flex-basis: calc((100% -20px) / 2);
 .about-us {
   padding: 50px 0;
 }
+
+.decor-left {
+  width: 230px;
+  border-top: 50px solid var(--background-color-black);
+}
+
+.decor-right {
+  width: 230px;
+  border-top: 50px solid var(--background-color-black);
+}
   /* .about-us-title {
     max-width: 500px;
     font-size: 40px;
@@ -690,10 +720,10 @@ flex-basis: calc((100% -20px) / 2);
   .about-us-paragraf {
     max-width: 450px;
   } */
-.about-us-photo {
-max-width: 700px;
-margin: 0 auto;
-}
+  .about-us-photo {
+    height: 100%;
+    object-fit: cover;
+  }
   .studio-section {
     padding: 50px 0;
   }
@@ -800,15 +830,17 @@ margin: 0 auto;
   .about-us {
     padding: 75px 0;
   }
-  .about-us-title {
-      max-width: 650px;
-    font-size: 50px;
+  .decor-left {
+    width: 300px;
+    border-top: 50px solid var(--background-color-black);
   }
-  .about-us-paragraf {
-    max-width: 650px;
-}
-  .about-us-content {
-    max-width: 650px;
+  
+  .decor-right {
+    width: 300px;
+    border-top: 50px solid var(--background-color-black);
+  }
+  .about-us-title {
+    font-size: 50px;
   }
 
   .studio-section {
@@ -823,6 +855,10 @@ margin: 0 auto;
     margin: 0 auto 70px;
   }
 
+  .hygiene-section {
+    padding: 75px 0;
+  }
+
   .hygiene-title {
     font-size: 46px;
   }
@@ -831,9 +867,7 @@ margin: 0 auto;
     display: flex;
     flex-direction: row;
   }
-  .hygiene-section {
-    padding: 75px 0;
-  }
+  
   .hygiene-text {
     font-size: 18px;
   }
