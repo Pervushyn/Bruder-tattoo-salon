@@ -306,6 +306,7 @@ header {
 
 .img-watsapp {
   position: fixed;
+  z-index: 1;
   right: 20px;
   bottom: 20px;
   width: 50px;
