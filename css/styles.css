@@ -435,25 +435,29 @@ header {
   margin-bottom: 100px;
 }
 
-.button-studio {
+
+
+.link-studio {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   text-align: center;
+  margin: 0 auto;
   padding: 20px;
   color: var(--black);
+  width: 200px;
+  background-color: var(--background-color-white);
   font-family: Montserat, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
   text-transform: uppercase;
-  border-radius: 35px;
+  border-radius: 15px;
   transition: background-color 1s ease, color 1s ease;
+
 }
 
-.button-studio:hover {
-  background-color: #414141;
-  color: aqua;
+.link-studio:hover {
+  background-color: var(--background-grau);
+  color:var(--white);
 }
 
 /* END_STUDIO-SECTION */
@@ -631,7 +635,7 @@ header {
   /* display: none; */
   align-items: center;
   justify-content: center;
-  padding: 24px 0px;
+  padding: 20px 0px;
   transition: color 0.5s;
 }
 

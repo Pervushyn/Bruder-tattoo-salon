@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./images/лошадь.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bruder</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container-header">
+        <div class="header-inner">
+          <a class="logo" href="./index.html">
+            <svg class="logo-icon" width="24" height="24">
+              <use href="./images/symbol-defs.svg#icon-310377"></use>
+            </svg>
+          </a>
+          <nav class="header-nav">
+            <ul class="nav-list">
+              <li>
+                <a class="nav-link" href="./index.html">Home</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#galaryid">Galerie</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#studio">Studio</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#hygiene">Hygiene</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#kontact">Kontakt</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header-socials">
+            <a class="header-socials-link" href="#" target="_blank"
+              ><svg width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram-1"></use>
+              </svg>
+            </a>
+            <a class="header-socials-link" href="#" target="_blank">
+              <svg width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter-1"></use>
+              </svg>
+            </a>
+          </div>
+          <button class="menu-toggle" data-modal-open>
+            <svg class="menu-toggle-icon" width="22" height="22">
+                <use href="./images/icons.svg#icon-menu-03-1"></use>
+            </svg>
+        </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+        <!-- Studio-section -->
+      <section class="studio-section" id="studio">
+        <div class="container container">
+          <h2 class="studio-title">
+            <span class="title-accent">Unsere</span> tattoo studio
+          </h2>
+          <p class="studio-text">
+            Wir l(i)eben Kunst. Und das haben wir mit viel Liebe zum Detail auch
+            in unserem Studio in Düsseldorf umgesetzt
+          </p>
+          <a
+          class="watsapp-link"
+          href="https://wa.me/+491604525534"
+          target="_blank"
+        >
+          <img
+            class="img-watsapp"
+            src="https://svgsilh.com/png-1024/2071331-4caf50.png"
+            alt="logo-watsapp"
+          />
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="address-footer">
+          <a class="logo-footer" href="./index.html">
+            <svg class="logo-icon" width="150" height="150">
+              <use href="./images/symbol-defs.svg#icon-310377"></use>
+            </svg>
+          </a>
+        </div>
+        <address class="norm">
+          <ul class="address-menu">
+            <li>
+              <a class="adress-link" href="mailto:tattoostudibrothers@hotmail.com"
+                >tattoostudibrothers@hotmail.com</a
+              >
+            </li>
+            |
+            <li>
+              <a class="adress-link" href="tel:+491604525534"
+                >+49 (160) 452-55-34</a
+              >
+            </li>
+          </ul>
+          <div class="adress-footer" id="kontact">
+            <a
+              href="https://www.google.ru/maps/place/BROTHERS+Tattoo+Studio/@51.9922642,8.7934808,19.25z/data=!4m6!3m5!1s0x47ba411b80d32f95:0xf0ac9f5910fa4b84!8m2!3d51.9922776!4d8.7932287!16s%2Fg%2F11lck755mj?entry=ttu"
+              >Bergstraße 30, 32791 Lage</a
+            >
+          </div>
+          <ul class="social-list">
+            <li class="social-image">
+              <a class="social-icons" href=""
+                ><svg class="social-icons-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-image">
+              <a class="social-icons" href=""
+                ><svg class="social-icons-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-image">
+              <a class="social-icons" href=""
+                ><svg class="social-icons-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </address>
+      </div>
+    </footer>
+
+    <!-- modal -->
+
+    <div class="backdrop is-hidden" data-modal>
+
+      <div class="modal">
+        <nav class="modal-nav">
+          <ul class="modal-list">
+            <li>
+              <a class="modal-link" href="./index.html">Home</a>
+            </li>
+            <li>
+              <a class="modal-link" href="#galaryid">Galerie</a>
+            </li>
+            <li>
+              <a class="modal-link" href="#studio">Studio</a>
+            </li>
+            <li>
+              <a class="modal-link" href="#hygiene">Hygiene</a>
+            </li>
+            <li>
+              <a class="modal-link" href="#kontact">Kontakt</a>
+            </li>
+          </ul>
+          <img class="images" src="./images/modal-foto.jpg" alt="gerl-tattoo">
+        </nav>
+        <button class="modal-close" type="button" data-modal-close>
+          <svg class="icon-close" width="28" height="28">
+            <use href="./images/icons.svg#icon-x-close-1"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <script src="./js/modal.js" type="module"></script>
+  </body>
+</html> 
