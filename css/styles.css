@@ -546,30 +546,18 @@ header {
   align-items: center;
   justify-content: center;
 }
-
-.address-menu {
-  font-family: Montserat, sans-serif;
+.norm {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  gap: 10px;
-  margin-bottom: 30px;
-  transition: 0.5s;
-  text-align: center;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 1.4;
-  letter-spacing: 0.03em;
-}
-
-.address-menu:hover {
-  transform: scale(1.25);
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .adress-footer {
   font-family: Montserat, sans-serif;
   text-align: center;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 600;
   line-height: 1.4;
   letter-spacing: 0.03em;
@@ -577,7 +565,6 @@ header {
   align-items: center;
   justify-content: center;
   transition: 0.5s;
-  margin-bottom: 30px;
 }
 
 .adress-footer:hover {
