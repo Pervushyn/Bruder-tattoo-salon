@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const fadeInElements = document.querySelectorAll('h1, h2, h3, h4, h5, h6, p, a'); // Вибираємо всі елементи для анімації
+    const fadeInElements = document.querySelectorAll('h1, h2, h3, h4, h5, h6, p, img, a'); // Вибираємо всі елементи для анімації
   
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {
