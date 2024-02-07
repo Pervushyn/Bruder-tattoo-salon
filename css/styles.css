@@ -522,7 +522,7 @@ header {
 }
 .hygiene-text {
   color: var(--dark);
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   line-height: 1.4;
   letter-spacing: 0.03em;
@@ -565,6 +565,7 @@ header {
   align-items: center;
   justify-content: center;
   transition: 0.5s;
+  text-transform: uppercase;
 }
 
 .adress-footer:hover {
