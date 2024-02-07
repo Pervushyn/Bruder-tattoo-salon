@@ -229,22 +229,6 @@ header {
   min-width: 320px;
 }
 
-.decor-left-hero-top {
-  position: absolute;
-  width: 130px;
-  top: 0;
-  border-top: 30px solid var(--background-color-black);
-  border-right: 20px solid transparent;  
-}
-
-.decor-right-hero-top {
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 130px;
-  border-top: 30px solid var(--background-color-black);
-  border-left: 20px solid transparent;
-}
 
 .hero-title {
   /* max-width: 690px; */
@@ -371,22 +355,7 @@ header {
   padding: 30px 0;
 }
 
-.decor-left {
-  position: absolute;
-  width: 130px;
-  top: 0;
-  border-top: 30px solid var(--background-color-black);
-  border-right: 20px solid transparent;
-}
 
-.decor-right {
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 130px;
-  border-top: 30px solid var(--background-color-black);
-  border-left: 20px solid transparent;
-}
 
 .flex-abaut {
   display: flex;
@@ -548,23 +517,7 @@ header {
   letter-spacing: 0.03em;
   margin-bottom: 20px;
 }
-.decor-left-hygiene {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 130px;
-  border-bottom: 30px solid var(--background-color-black);
-  border-right: 20px solid transparent;
-}
 
-.decor-right-hygiene {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 130px;
-  border-bottom: 30px solid var(--background-color-black);
-  border-left: 20px solid transparent;
-}
 /* END-HIGIENE_SECTION */
 
 /* FOOTER */
@@ -742,16 +695,6 @@ flex-basis: calc((100% -20px) / 2);
   
 }
 
-.decor-left {
-  width: 200px;
-  border-top: 30px solid var(--background-color-black);
-}
-
-.decor-right {
-  width: 200px;
-  border-top: 30px solid var(--background-color-black);
-}
- 
   .about-us-photo {
     height: 100%;
     object-fit: cover;
@@ -786,13 +729,7 @@ flex-basis: calc((100% -20px) / 2);
     flex-direction: row;
     gap: 30px;
   }
-  .decor-left-hygiene {
-    width: 200px;
-  }
   
-  .decor-right-hygiene {
-    width: 200px;
-  }
 }
 
 
@@ -868,15 +805,7 @@ flex-basis: calc((100% -20px) / 2);
   .about-us {
     padding: 75px 0;
   }
-  .decor-left {
-    width: 250px;
-    border-top: 36px solid var(--background-color-black);
-  }
   
-  .decor-right {
-    width: 250px;
-    border-top: 36px solid var(--background-color-black);
-  }
   .about-us-title {
     font-size: 50px;
   }
@@ -909,15 +838,7 @@ flex-basis: calc((100% -20px) / 2);
   .hygiene-text {
     font-size: 18px;
   }
-  .decor-left-hygiene {
-    width: 250px;
-    border-bottom: 36px solid var(--background-color-black);
-  }
   
-  .decor-right-hygiene {
-    width: 250px;
-    border-bottom: 36px solid var(--background-color-black);
-  }
 }
 
 /* MODAL */
