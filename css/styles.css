@@ -118,11 +118,15 @@ header {
   margin: 0 auto;
 }
 .logo {
-  fill: var(--white);
-  stroke: var(--white);
+  fill: black;
+  stroke: black;
   text-align: center;
 }
 
+.instagram {
+  fill: var(--white);
+  stroke: var(--white);
+}
 .menu-toggle-icon {
   stroke: var(--white);
   fill: var(--white);
@@ -143,9 +147,11 @@ header {
   display: none;
   /* display: flex; */
   stroke: var(--white);
+  fill:var(--white);
 }
 .header-socials-link:hover {
   stroke: var(--brown);
+  fill:var(--brown);
 }
 
 .header-socials-link:focus {
@@ -571,6 +577,17 @@ header {
   stroke: var(--white);
 }
 
+.social-icons-svg {
+  fill: var(--white);
+  stroke: var(--white);
+  transition: color 1s;
+}
+.social-icons-svg:hover {
+  fill: var(--brown);
+  stroke: var(--brown);
+}
+
+
 /* END FOOTER */
 
 
@@ -601,9 +618,11 @@ header {
   /* display: none; */
   display: flex;
   stroke: var(--white);
+  fill: var(--white);
 }
 .header-socials-link:hover {
   stroke: var(--brown);
+  fill: var(--brown);
 }
 
 .header-socials-link:focus {
