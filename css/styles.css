@@ -228,7 +228,7 @@ header {
   /* padding: 200px 0; */
   position: relative;
   padding: 250px 0px 300px;
-  background-image: url(../images/hero.jpg);
+  background-image: url(../images/hero-bcg1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -679,6 +679,7 @@ header {
   .hero-section {
     margin: 0 auto;
     padding: 150px 0px 150px;
+    background-image: url(../images/hero-bcg.jpg);
   }
   .container {
     max-width: 1198px;
