@@ -419,7 +419,7 @@ header {
 
 .studio-section {
   padding: 100px 0;
-  background-image: url(../images/mob_bcg/studio-mob.jpg);
+  background-image: url(../images/mob_bcg/studio_mob.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -727,6 +727,7 @@ flex-basis: calc((100% -20px) / 2);
   }
   .studio-section {
     padding: 50px 0;
+    background-image: url(../images/tab_bcg/studio-tab.jpg);
   }
   .studio-title {
     font-size: 46px;
@@ -734,7 +735,6 @@ flex-basis: calc((100% -20px) / 2);
   .studio-title::after {
     content: "";
     display: block;
-    background: linear-gradient(to right, black 50%, white 50%);
     top: 180%;
     left: 50%;
     transform: translateX(-50%);
@@ -802,7 +802,6 @@ flex-basis: calc((100% -20px) / 2);
   .hero-section {
     margin: 0 auto;
     padding: 200px 0px 200px;
-    background-image: url(../images/desc_bcg/hero-desk.jpg);
   }
   .container {
     max-width: 1440px;
