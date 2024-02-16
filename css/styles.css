@@ -419,10 +419,16 @@ header {
 
 .studio-section {
   padding: 100px 0;
-  background-image: url(../images/studio-salon.jpg);
+  background-image: url(../images/mob_bcg/studio-mob.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.studio-section-list {
+display: flex;
+flex-direction: column;
+gap: 20px;
 }
 
 .studio-title {
@@ -440,8 +446,8 @@ header {
 .studio-title::after {
   content: "";
   display: block;
-  background: linear-gradient(to right, black 50%, white 50%);
-  top: 30px;
+  background: var(--white);
+  top: 130px;
   left: 50%;
   transform: translateX(-50%);
   width: 200px;
