@@ -228,7 +228,7 @@ header {
   /* padding: 200px 0; */
   position: relative;
   padding: 250px 0px 300px;
-  background-image: url(../images/hero-mob.jpg);
+  background-image: url(../images/mob_bcg/hero-mob.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -685,7 +685,7 @@ gap: 20px;
   .hero-section {
     margin: 0 auto;
     padding: 150px 0px 150px;
-    background-image: url(../images/hero-tab.jpg);
+    background-image: url(../images/tab_bcg/hero-tab.jpg);
   }
   .container {
     max-width: 1198px;
@@ -802,6 +802,7 @@ flex-basis: calc((100% -20px) / 2);
   .hero-section {
     margin: 0 auto;
     padding: 200px 0px 200px;
+    background-image: url(../images/desc_bcg/hero-desk.jpg);
   }
   .container {
     max-width: 1440px;
