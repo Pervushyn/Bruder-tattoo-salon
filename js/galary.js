@@ -1,22 +1,22 @@
-// Создаем элемент модального окна
+
 const modal = document.createElement('div');
 modal.style.cssText = `
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
+  inset: 0;
+  width: auto;
   height: 100%;
   display: none;
   align-items: center;
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
 `;
 document.body.appendChild(modal);
 
 // Создаем элемент для изображения в модальном окне
 const modalImg = document.createElement('img');
-modalImg.style.maxWidth = '90%';
-modalImg.style.maxHeight = '90%';
+modalImg.style.maxWidth = 'auto';
+modalImg.style.maxHeight = '100%';
 modal.appendChild(modalImg);
 
 // Функция для открытия модального окна с изображением
@@ -41,3 +41,5 @@ document.querySelectorAll('.galary-item .images').forEach(img => {
 
 // Добавляем обработчик событий к модальному окну для его закрытия
 modal.addEventListener('click', closeModal);
+
+
