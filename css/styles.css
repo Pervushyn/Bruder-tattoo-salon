@@ -316,7 +316,9 @@ header {
   letter-spacing: 0.02em;
   margin-bottom: 16px;
 }
-
+.galary-item {
+  max-width: 380px;
+}
 .galary-photo {
   display: flex;
   justify-content: center;
@@ -324,7 +326,7 @@ header {
   flex-wrap: wrap;
 }
 .images {
-  max-width: 440px;
+  max-width: 380px;
 }
 
 .img-watsapp {
