@@ -413,7 +413,8 @@ header {
 }
 .about-us-photo {
 display: block;
-max-width: 400px;
+width: 100%;
+height: 100%;
 margin: 0 auto;
 }
 
@@ -535,7 +536,8 @@ gap: 20px;
 }
 .hygiene-photo {
   display: block;
-  max-width: 400px;
+ width: 100%;
+ height: 100%;
   margin: 0 auto;
 }
 
@@ -731,11 +733,7 @@ flex-basis: calc((100% -20px) / 2);
   
 }
 
-  .about-us-photo {
-    height: 100%;
-    max-width: 680px;
-    object-fit: cover;
-  }
+ 
   .studio-section {
     padding: 50px 0;
     background-image: url(../images/tab_bcg/studio-tab.jpg);
@@ -761,11 +759,7 @@ flex-basis: calc((100% -20px) / 2);
   .hygiene-text {
     font-size: 16px;
   }
-  .hygiene-photo {
-   
-    max-width: 680px;
-    
-  }
+ 
   .address-menu {
     flex-direction: row;
     gap: 30px;
@@ -850,11 +844,7 @@ flex-basis: calc((100% -20px) / 2);
   .about-us-title {
     font-size: 50px;
   }
-  .about-us-photo {
-    
-    max-width: 600px;
-    
-  }
+  
   .studio-section {
     padding: 75px 0;
   }
@@ -883,11 +873,7 @@ flex-basis: calc((100% -20px) / 2);
   .hygiene-text {
     font-size: 18px;
   }
-  .hygiene-photo {
  
-    max-width: 500px;
-    
-  }
 }
 
 /* MODAL */
