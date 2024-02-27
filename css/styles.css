@@ -154,6 +154,8 @@ header {
   /* display: flex; */
   stroke: var(--white);
   fill:var(--white);
+  transition: stroke 0.2s;
+  transition: fill 0.2s; 
 }
 .header-socials-link:hover {
   stroke: var(--brown);
@@ -604,12 +606,11 @@ gap: 20px;
 
 .social-icons-svg {
   fill: var(--white);
-  stroke: var(--white);
-  transition: color 1s;
+  transition: stroke 0.2s;
+  transition: fill 0.2s;
 }
 .social-icons-svg:hover {
   fill: var(--brown);
-  stroke: var(--brown);
 }
 
 
